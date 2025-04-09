@@ -50,7 +50,7 @@ public:
 private:
     // 解析第一行请求行
     bool processRequestLine(const char *start, const cahr *end);
-
+private:
     HttpRequestParseState state_;  // 当前解析状态    
     HttpRequest request_;  // 当前正在构建的请求对象
 
